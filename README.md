@@ -19,8 +19,13 @@
 git clone https://github.com/JayantBansal900/ecommerce-mern.git
 
 ### 2. Install dependencies
-cd client && npm install
-cd ../server && npm install
+# Terminal 1
+cd server
+npm run dev
+
+# Terminal 2
+cd client
+npm start
 
 ### 3. Run project
 cd server && npm run dev
