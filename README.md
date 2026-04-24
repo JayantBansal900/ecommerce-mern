@@ -1,11 +1,17 @@
 # MERN E-Commerce App
 
+A production-oriented full-stack MERN e-commerce application with secure authentication, Razorpay payment integration, and role-based access control.
+
+---
+
 ## 🚀 Features
 - JWT Authentication (HttpOnly cookies)
-- Role-based access (Admin/User)
+- Role-Based Access Control (Admin/User)
 - Razorpay Payment Integration
 - Order Management System
 - Cloudinary Image Uploads
+
+---
 
 ## 🛠 Tech Stack
 - Frontend: React.js, Tailwind CSS
@@ -13,27 +19,43 @@
 - Database: MongoDB
 - APIs: Razorpay, Cloudinary
 
+---
+
 ## ⚙️ Setup Instructions
 
-### 1. Clone repo
+### 1. Clone the repository
+```bash
 git clone https://github.com/JayantBansal900/ecommerce-mern.git
+cd ecommerce-mern
+```
 
 ### 2. Install dependencies
-# Terminal 1
+
+#### Terminal 1 (Backend)
+```bash
+cd server
+npm install
+```
+
+#### Terminal 2 (Frontend)
+```bash
+cd client
+npm install
+```
+
+### 3. Run the project
+
+#### Terminal 1 (Backend)
+```bash
 cd server
 npm run dev
+```
 
-# Terminal 2
+#### Terminal 2 (Frontend)
+```bash
 cd client
 npm start
+```
 
-### 3. Run project
-cd server && npm run dev
-cd client && npm start
+---
 
-## 🔐 Environment Variables
-Create `.env` in server:
-- JWT_SECRET
-- RAZORPAY_KEY_ID
-- RAZORPAY_KEY_SECRET
-- CLOUDINARY configs
