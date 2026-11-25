@@ -131,7 +131,13 @@ git clone https://github.com/JayantBansal900/ecommerce-mern.git
 cd ecommerce-mern
 ```
 
-Create `server/.env`:
+Copy the example file to `server/.env` and fill in your own values:
+
+```bash
+cp server/.env.example server/.env
+```
+
+It contains:
 
 ```env
 PORT=5000
