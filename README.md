@@ -1,4 +1,5 @@
 # 🛒 MERN E-Commerce
+[![CI](https://github.com/JayantBansal900/ecommerce-mern/actions/workflows/ci.yml/badge.svg)](https://github.com/JayantBansal900/ecommerce-mern/actions/workflows/ci.yml)
 
 A full-stack online store built on the **MERN stack**. Customers can browse products, manage a cart, check out and **pay through Razorpay**. Admins manage the catalogue, process orders and track revenue on an analytics dashboard.
 
